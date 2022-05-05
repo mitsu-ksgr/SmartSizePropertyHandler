@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    The propdesc for the Smart Size property.
+-->
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xmlns="http://schemas.microsoft.com/windows/2006/propertydescription"
+        schemaVersion="1.0">
+  <propertyDescriptionList publisher="mitsu-ksgr" product="smart-size-prop">
+    <!--
+      TODO:
+        - name ... System.GroupName.PropertyName の形式で決める必要があるっぽい.適当.
+        - formatID ... PKEY のやつ. 適当に生成した UUID.
+          - Visual Studio なら ツール > GUIDの作成 で生成できる
+            -「レジストリ形式」を選択
+        - propID ... PKEY のやつ. 適当.
+    -->
+    <propertyDescription
+      name="MitsuKsgr.View.SmartSize"
+      formatID="{E5E96240-C9EE-11EC-9D64-0242AC120002}"
+      propID="100">
+      <description>Smart file size</description>
+      <searchInfo inInvertedIndex="false" isColumn="true" />
+
+      <typeInfo type="String" multipleValues="false" isViewable="true" isQueryable="false" />
+      <labelInfo label="Smart File Size" invitationText="Human-friendly file size"/>
+      <displayInfo alignment="right" />
+    </propertyDescription>
+  </propertyDescriptionList>
+</schema>
