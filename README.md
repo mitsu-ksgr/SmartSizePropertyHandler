@@ -1,9 +1,9 @@
 Windows: SmartSize PropertyHandler
 ==================================
 
-みかん。
+みかん 🍊
 
-### あいうえお
+### あれこれ
 #### やりたかったこと
 - Widnows Exprorer で詳細表示したときのサイズが KB 表示がいや
 - サイズに応じて GiB, MiB の単位にしてほしい
